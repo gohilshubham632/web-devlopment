@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Employee Dashboard</title>
+    </head>
+    <body>
+        <header>
+            <h1>Employee managment system</h1>
+            <nav>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#Employee">Employee</a>
+                <a href="#Department">Department</a>
+                <a href="#Reports">Reports</a>
+                <a href="#Logout">Logout</a>
+            </nav>
+        </header>
+        <hr>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <table border="1" cellpadding="10">
+                <tr style="background-color: aquamarine;">
+                    <th>Total Employee</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Department</th>
+                </tr>
+                <tr style="background-color: aqua;">
+                    <td>250</td>
+                    <td>225</td>
+                    <td>25</td>
+                    <td>8</td>
+                </tr>
+                <tr style="background-color: aqua;">
+                    <td>300</td>
+                    <td>212</td>
+                    <td>10</td>
+                    <td>7</td>
+                </tr>
+                <tr style="background-color: aqua;">
+                    <td>140</td>
+                    <td>227</td>
+                    <td>27</td>
+                    <td>9</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section id="Employee">
+            <h2>Employee list</h2>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr style="background-color: blanchedalmond;">
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                    </tr>
+                    <tr style="background-color: beige;">
+                        <th>101</th>
+                        <th>Aayush</th>
+                        <th>it</th>
+                        <th>Developer</th>
+                        <th>15000</th>
+                    </tr>
+                    <tr style="background-color: beige;">
+                        <th>102</th>
+                        <th>Parth</th>
+                        <th>hr</th>
+                        <th>Manager</th>
+                        <th>30000</th>
+                    </tr>
+                    <tr style="background-color: beige;">
+                        <th>103</th>
+                        <th>Chandani</th>
+                        <th>Finance</th>
+                        <th>Acountant</th>
+                        <th>50000</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+        <hr>
+        <h2>Department Details</h2>
+        <section id="Department">
+            <table border="1" cellpadding="10" cellspacing="5">
+                <tr>
+                    <th>Department</th>
+                    <th>Manager</th>
+                    <th>Employees</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>John Smith</td>
+                    <td>25</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>HR</td>
+                    <td>Sarah Patel</td>
+                    <td>10</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Finance</td>
+                    <td>David Kumar</td>
+                    <td>15</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Krisha Shah</td>
+                    <td>18</td>
+                    <td>Active</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Reports">
+        <h2>Reports</h2>
+
+            <table border="1" cellpadding="10">
+                <tr style="background-color: lightgreen;">
+                        <th>Report Name</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                </tr>
+                <tr>
+                        <td>Attendance Report</td>
+                        <td>Employee present and absent details</td>
+                        <td><a href="">View Report</a></td>
+                </tr>
+                <tr>
+                        <td>Salary Report</td>
+                        <td>Employee salary details</td>
+                        <td><a href="">View Report</a></td>
+                </tr>
+                <tr>
+                        <td>Department Report</td>
+                        <td>Department-wise employee details</td>
+                        <td><a href="">View Report</a></td>
+                </tr>
+                <tr>
+                        <td>Employee Report</td>
+                        <td>Complete employee information</td>
+                        <td><a href="">View Report</a></td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section id="Logout">
+            <h2>Logout</h2>
+            <p>Are you sure you want to logout?</p>
+            <button type="button">Yes, Logout</button>
+            <button type="button">Cancel</button>
+        </section>
+    </body>
+</html>

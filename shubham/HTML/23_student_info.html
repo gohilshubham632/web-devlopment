@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>student registration form</title>
+    </head>
+    <body>
+            
+        
+            <table border="1" align="center" width="50%" cellpadding="10">
+                <tr>
+                    <td>
+                        <h1 align="center">Student Registration form</h1>
+                        <form action="success.html" method="post">
+                            <b>Personal Information</b>
+                            <hr>
+                            <label>Full name:</label>
+                            <input type="text" id="name" name="name">
+                            <hr>
+                            <label>Email:</label>
+                            <input type="email" name="email" id="email">
+                            <hr>
+                            <label>Password:</label>
+                            <input type="password" id="password" name="password">
+                            <hr>
+                            <label>Dob:</label>
+                            <input type="date" id="date" name="date">
+                            <hr>
+                            <label>Gender:</label>
+                            <br>
+                            <input type="radio" id="male" name="gender">Male
+                            <input type="radio" id="female" name="gender">Female
+                            <hr>
+                            <div>
+                                <label>Course Information</label><br>
+                                <label>Select course:</label>
+                                <select name="course">
+                                    <option>Course</option>
+                                    <option>HTML</option>
+                                    <option>CSS</option>
+                                    <option>JAVASCIPT</option>
+                                    <option>PYTHON</option>
+                                </select>
+                                <hr>
+                                <label>Skills:</label>
+                                <br>
+                                <input type="checkbox" name="skill">HTML
+                                <br>
+                                <input type="checkbox" name="skill">CSS
+                                <br>
+                                <input type="checkbox" name="skill">PYTHON
+                                <br>
+                                <input type="checkbox" name="skill">JAVASCIPT
+                                <br>
+                            </div>
+                            <label>Address:</label>
+                            <br>
+                            <textarea name="Address" rows="5" cols="30" placeholder="Enter your Address"></textarea>
+                            <hr>
+                            <input type="submit" value="register">
+                            <input type="reset" value="clear all">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>

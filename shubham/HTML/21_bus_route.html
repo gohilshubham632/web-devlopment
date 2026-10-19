@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>bus route</title>
+    </head>
+    <body>
+        <form action="success.html" method="post">
+            <table border="1" cellpadding="10" width="100%" bgcolor="CD5C5C">
+                <tr>
+                    <td>
+                        <label for="source"><font color="white" size="5">source</font></label>
+                        <br>
+                        <input type="text" name="source" id="source">
+                    </td>
+                    <td>
+                        <label for="destination"><font color="white" size="5">Destination</font></label>
+                        <br>
+                        <input type="text" name="destination" id="destination">
+                    </td>
+                    <td>
+                        <label for="journeydate"><font color="white" size="5">Date</font></label>
+                        <br>
+                        <input type="date" name="journeydate" id="destination">
+                    </td>
+                    <td>
+                        <label for="seats"><font color="white" size="5">Seats</font></label>
+                        <br>
+                        <select name="seat" id="seat">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for=""><font color="white" size="5">Bus type</font></label>
+                        <br>
+                        <label for="express">
+                            <input type="checkbox" name="express" id="express"><font color="white">Express</font>
+                        </label>
+                        <br>
+                         <label for="AC">
+                            <input type="checkbox" name="AC" id="AC"><font color="white">AC</font>
+                        </label>
+                        <br>
+                         <label for="VOLVO">
+                            <input type="checkbox" name="VOLVO" id="VOLVO"><font color="white">Volvo</font>
+                        </label>
+                        <br>
+                         <label for="express">
+                            <input type="checkbox" name="SLEEPER" id="SLEEPER"><font color="white">Sleeper</font>
+                        </label>
+                        <td>
+                        <label for=""><font color="white">Select Gender</font></label>
+                        <br>
+                        <label for="male">
+                            <input type="radio" name="gender" id="male"><font color="white">male</font> 
+                        </label>
+                        <br>
+                        <label for="female">
+                            <input type="radio" name="gender" id="female"><font color="white">female</font> 
+                        </label>
+                    </td>
+                    <td>
+                        <input type="submit" value="search">
+                    </td>
+
+
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
